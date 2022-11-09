@@ -1,0 +1,64 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+.grid-container{
+	display: grid;
+	grid-gap: 0.5em;
+}
+
+.grid-container-2{
+	display: grid;
+	width: min(90em, 100%);
+	height: calc(100% - 100px - 1em);
+	margin: auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	grid-template:
+	"hero hero hero"
+	"content content sidebar"
+	"content content sidebar"
+	"content content sidebar";
+}
+
+.grid-item{
+	color: white;
+}
+
+.grid-item-1{
+	background-color: blue;
+	height: 50px;
+}
+
+.grid-item-2{
+	background-color: red;
+	grid-area: hero;
+}
+
+.grid-item-3{
+	background-color: green;
+	grid-area: content;
+}
+
+.grid-item-4{
+	background-color: purple;
+	grid-area: sidebar;
+}
+
+.grid-item-5{
+	background-color: grey;
+	height: 50px;
+	margin-bottom: 0;
+}
+
+@media (max-width: 800px){
+	.grid-container-2{
+		width: 100%;
+		grid-template:
+		"hero"
+		"content"
+		"sidebar";
+	}
+}

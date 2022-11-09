@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz App!</title>
+        <link rel="Stylesheet" href="./project 2.css">
+    </head>
+    <body onload="quiz()">
+        <div>
+            <div>
+                <h1>Question</h1>
+            </div>
+            <div>
+                <input type="radio" class="font" id="answer" name="answer" value="a1" onclick="buttonShift(this.value)">
+                <label for="answer"></label>
+            </div>
+            <div>
+                <input type="radio" class="font" id="answer" name="answer" value="a2" onclick="buttonShift(this.value)">
+                <label for="answer"></label>
+            </div>
+            <div>
+                <input type="radio" class="font" id="answer" name="answer" value="a3" onclick="buttonShift(this.value)">
+                <label for="answer"></label>
+            </div>
+            <div>
+                <input type="radio" class="font" id="answer" name="answer" value="a4" onclick="buttonShift(this.value)">
+                <label for="answer"></label>
+            </div>
+            <div>
+                <button class="submitButton" disabled="true" onclick="buttonShift(this.value), checker()" value="button">Submit Answer</button>
+            </div>
+            <div>
+                <button class="visibility" onclick="location.reload()">Reset</button>
+                <p></p>
+            </div>
+        </div>
+        <script src="./project 2.js"></script>
+    </body>
+</html>

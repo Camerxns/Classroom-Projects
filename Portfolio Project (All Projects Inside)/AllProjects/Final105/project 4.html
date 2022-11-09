@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Generator</title>
+        <link rel="Stylesheet" href="./project 4.css">
+    </head>
+    <body>
+        <header><h1>Cameron's Password Generator</h1></header>
+        <div class="divPosition">
+        <p id="password" class="box"></p>
+        <br>
+        <div>
+            <label for="passwordLength">Password Length</label>
+            <input type="text" id="passwordLength" name="passwordLength">   
+        </div>
+        <div>
+            <div>
+            <p>Contain Uppercase Letter <input type="checkbox" id="uppercase" name="uppercase"></p> 
+            </div>    
+            <div>
+            <p>Contain Lowercase Letter <input type="checkbox" id="lowercase" name="lowercase"></p>
+            </div>    
+            <div>
+            <p>Contain Numbers <input type="checkbox" id="numbers" name="numbers"></p>
+            </div>
+            <div>
+            <p>Contain Symbols <input type="checkbox" id="symbols" name="symbols"></p>
+            </div>
+        </div>
+        <div>
+            <button onclick="generate()">Generate</button>
+        </div>
+        </div>
+        <script src="./project 4.js"></script>
+    </body>
+</html>

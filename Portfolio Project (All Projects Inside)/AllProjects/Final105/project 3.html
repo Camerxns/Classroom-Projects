@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Who Wants To Be A Millionaire!</title>
+        <link rel="Stylesheet" href="./project 3.css">
+    </head>
+    <body onload="quiz()">
+        <header class="game">Who Wants To Be A Millionaire?</header>
+        <div class="gameboard">
+            <div>
+                <h1>Question</h1>
+            </div>
+            <div>
+                <input type="radio" id="answer" name="answer" value="a1" onclick="buttonShift(this.value)">
+                <label for="answer"></label>
+            </div>
+            <div>
+                <input type="radio" id="answer" name="answer" value="a2" onclick="buttonShift(this.value)">
+                <label for="answer"></label>
+            </div>
+            <div>
+                <input type="radio" id="answer" name="answer" value="a3" onclick="buttonShift(this.value)">
+                <label for="answer"></label>
+            </div>
+            <div>
+                <input type="radio" id="answer" name="answer" value="a4" onclick="buttonShift(this.value)">
+                <label for="answer"></label>
+            </div>
+            <div>
+                <button class="submit" disabled="true" onclick="buttonShift(this.value), checker()" value="button">Submit Answer</button>
+            </div>
+            <div>
+                <button class="visibility" onclick="location.reload()">Reset</button>
+                <h3></h3>
+            </div>
+            <br>
+            <div> 
+                <p>Lifelines:</p>
+            <!-- for lifelines -->
+                <input type="image" src="./Audience.png" alt="Ask the audiance!" class="circleButtons" id="audianceInput">
+                <input type="image" src="./Phone.png" alt="Phone a friend!" class="circleButtons" id="phone">
+                <input type="image" src="./50.png" alt="50/50" class="circleButtons" id="50" onclick="crossOut()">
+                <!-- for the 50/50 I made a function and made it an onclick to work, 
+                for the Phone and Audience it was a little more complex so I didn't use an onclick in HTML, I used an onclick in JavaScript then had more things happen afterwards
+                like using the setTimeout feature to make the gif disappear and then have the friend image pop up afterwards. I really wanted to add sound effects to this project,
+                namely like a call sound while the phone ringing gif was playing or an audience whispering before the audience answer appeared on screen but I don't think I could
+                have done that in the amount of time we were given to complete this project. This was the last project I worked on and I believe I pulled out all the stops on
+                this one, I spent the most amount of time between getting everything to function and look pretty on this project as I did just getting everything to function
+                on the grocery list manager. I really enjoyed this project and wish we had more time because I could have made it a lot better in my opinion. -->
+            </div>
+            <div id="gif" class="ringing">
+                <!-- For the pop up gif for phone a friend -->
+                <img id="ring" src="./PhoneRinging.gif" alt="Phone Ringing">
+
+            </div>                
+                <div class="friend">
+                <!-- Use this for a second image that will pop up until the user clicks X for the phone a freind -->
+                    <img class="friendIMG" id="friend" src="./Friend.jpg" alt="Friend">
+                    <div id="caption" class="caption"></div>
+                <!-- Close Button -->
+                <span class="close">&times;</span>
+                </div>
+            <div class="audianceDIV">
+                <!-- Use this for Audiance function -->
+                <img class="audienceL" id="audience" src="./Audiance Lifeline.png" alt="Lifeline">
+                <div id="captionAudience" class="captionAudience"></div>
+                <span class="close">&times;</span>
+            </div>
+        </div>
+        <script src="./project 3.js"></script>
+    </body>
+</html>

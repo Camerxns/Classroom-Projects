@@ -1,0 +1,42 @@
+.app-screen{
+    width: 40%;
+}
+.works-step{
+    margin-bottom: 50px;
+}
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}
+.span-1-of-2{
+    width: 49.2%;
+}
+.section-steps{
+    background-color: #f4f4f4;
+}
+.steps-box:last-child{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 70px;
+}
+.works-step div{
+    color: #8f5cd1;
+    font-size: 150%;
+    height: 54px;
+    width: 54px;
+    border: 2px solid #8f5cd1;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    float: left;
+    padding: 5px;
+}
+.btn-app:link, .btn-app:visited{
+    border: 0;
+}
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}

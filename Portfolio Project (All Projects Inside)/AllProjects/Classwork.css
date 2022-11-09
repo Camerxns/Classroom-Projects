@@ -1,0 +1,88 @@
+/* table, td, th {
+    border: 1px solid black;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td:hover{
+    background-color: pink;
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+if you do something like the nth-child(even) then you have to put a hover element afterwards
+tr:hover{
+    background-color: pink;
+}
+a:link{
+    color: greenyellow;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: violet;
+}
+a:active{
+    color: brown;
+}
+#tooltip{
+    display: none;
+}
+#tooltip:hover p{
+    display: inline;
+    color: blue;
+}
+#grad {
+    width: 200px;
+    height: 200px;
+    background-color: red; 
+    background-image: linear-gradient(to bottom right, blue, yellow);
+}
+h2{
+    text-shadow: 0 0 5px red;
+}
+label{
+    display: block;
+    margin-top: 20px;
+}
+input:autofill {
+    border: 3px solid darkorange;
+}
+ select{
+    display: block;
+    margin-top: 20px;
+}
+*:enabled{
+    background-color: gold;
+} */
+
+
+/* nav {
+display: block;
+position: absolute;
+top: 0;
+width: 100%;
+background-color: green;
+}
+li{
+list-style-type: none;
+display: inline;
+margin-right: 20px;
+font-size:25px
+}
+a:link {
+color: #fff;
+text-decoration: none;
+}
+a:hover {
+color: orange;
+text-decoration: none;
+}
+li > ul {
+display: none
+}
+li:hover ul {display: block; position: absolute; left:200px;background-color:green;margin:0;}
+li:hover ul li a:link{display: block;margin-left:-30px;}
+ */

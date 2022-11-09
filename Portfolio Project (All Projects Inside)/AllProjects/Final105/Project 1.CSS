@@ -1,0 +1,22 @@
+html{
+    background-color: gold;
+}
+.line{
+    text-decoration: line-through;
+}
+.none{
+    display: none;
+}
+.word{
+    font-size: 25px;
+}
+body{
+    text-align: center;
+    font-size: 18px;
+}
+h1{
+    font-size: 55px;
+}
+.textField{
+    width: 25%;
+}

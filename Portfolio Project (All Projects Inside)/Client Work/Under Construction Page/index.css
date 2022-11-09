@@ -1,0 +1,14 @@
+html{
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/07/09/Texture-of-black-and-yellow-stripes-Graphics-14497680-1-580x386.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sizing{
+    width: 25%;
+    margin: 100px;
+    padding-left: 650px;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: white;
+}

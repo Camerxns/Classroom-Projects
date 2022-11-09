@@ -1,0 +1,24 @@
+html{
+    background-color: rgba(5,4,18,255);
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 3em;
+}
+div{
+    max-width: 500px;
+    margin: auto;
+}
+.box{
+    border: 3px;
+    border-style: solid;
+    background-color: #837198;
+}
+p{
+    font-size: 24px;
+}
+small{
+    color: aliceblue;
+    text-align: center;
+}

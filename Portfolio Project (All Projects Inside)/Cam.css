@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+.head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url("./Images/pngtree-portfolio-memphis-playful-abstract-pink-image_593412.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+}
+.hero-box{
+padding-top: 5em;
+color: white;
+}
+.hero-box p{
+    padding-top: 2em;
+}
+.navbar {
+    overflow: hidden;
+    font-family: Arial;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-icon{
+    height: auto;
+    width: 10%;
+    float: left;
+}
+.show{
+    display: block;
+}
+.projects{
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url("./Images/background\ 2.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+}
+.photos{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+.photos img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.photos img:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+.photoframe{
+    list-style: none;
+    width: 100%;
+}
+.photoframe li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.personal{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url("./Images/background\ 1.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+.contact{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url("./Images/background\ 3.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+.about{
+    display: flex;
+    height: 100vh;
+    background-color: cadetblue;
+}
+.text-image{
+    padding-top: 280px;
+    float: right;
+}
+.text-image2{
+    padding-top: 20px;
+}
+.client{
+    opacity: 0.7;
+}
+.client:hover{
+    opacity: 1;
+}
+.contact-info{
+    padding-top: 120px;
+    text-align: center;
+}
+.contact-info a{
+    text-decoration: none;
+    color: aqua;
+}
+footer{
+    display: flex;
+    height: 5vh;
+    background-color: #555;
+}
+footer h5{
+    padding-top: 11px;
+    padding-left: 850px;
+}
+.icons{
+    list-style: none;
+    float: right;
+}
+.icons li{
+    display: inline-block;
+}
+footer a{
+    color: blue;
+}
+.logo-size{
+    height: 2em;
+}
+.contact h2{
+    padding-top: 100px;
+}
+.a-hero{
+    text-decoration: none;
+    color: lightgray;
+}
+.projects h1{
+    color: white;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+.personal h2{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}

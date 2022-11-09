@@ -1,0 +1,7 @@
+body{
+    background-color: #666;
+    display: flex;
+}
+div{
+    padding-right: 10px;
+}
